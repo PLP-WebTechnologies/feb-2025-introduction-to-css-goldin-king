@@ -1,0 +1,55 @@
+/* style.css */
+
+/* 1. Styling the body */
+body {
+    font-family: 'Arial', sans-serif; /* Sets font */
+    background-color: #f4f4f4; /* Light gray background */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* 2. Styling a header with class */
+  .header {
+    text-align: center;
+    color: #333; /* Dark text color */
+    padding: 20px;
+    background-color: #4CAF50; /* Green background */
+    border-bottom: 3px solid #fff; /* White border under header */
+  }
+  
+  /* 3. Styling an image with ID */
+  #profile-image {
+    width: 200px; /* Image width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for the image */
+    display: block; /* Ensure no text wraps around the image */
+    margin: 20px auto; /* Center the image */
+  }
+  
+  /* 4. Styling a paragraph with class */
+  .description {
+    font-size: 1.2em;
+    line-height: 1.6; /* Increases line spacing for readability */
+    color: #555; /* Light gray text */
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd; /* Light border around the paragraph */
+    border-radius: 5px; /* Rounded corners for the border */
+  }
+  
+  /* 5. Styling a button with ID */
+  #submit-button {
+    background-color: #008CBA; /* Blue background */
+    color: white; /* White text */
+    padding: 10px 20px;
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.1em;
+  }
+  
+  #submit-button:hover {
+    background-color: #005f73; /* Darker blue when hovering */
+  }
+  
